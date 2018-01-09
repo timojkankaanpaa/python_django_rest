@@ -78,9 +78,9 @@ WSGI_APPLICATION = 'tutorial.wsgi.application'
 DATABASES = {
 	'default': {
 	'ENGINE': 'django.db.backends.mysql',
-	'NAME': 'tka_2018',
-	'USER': 'tka',
-	'PASSWORD': 'WENBbjvjWwEM',
+	'NAME': 'todo_2018',
+	'USER': 'todo',
+	'PASSWORD': 'todo',
 	'HOST': 'mysql.cc.puv.fi',
 	'PORT': '3306', 
 	}
