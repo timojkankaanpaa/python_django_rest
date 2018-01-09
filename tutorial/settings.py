@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'todo'
+SECRET_KEY = 'mn11er8l5=c!dq8au89lat#@9j+&$9evc_134y^wwafa-*88)('
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -78,9 +78,9 @@ WSGI_APPLICATION = 'tutorial.wsgi.application'
 DATABASES = {
 	'default': {
 	'ENGINE': 'django.db.backends.mysql',
-	'NAME': 'todo_2018',
-	'USER': 'todo',
-	'PASSWORD': 'todo',
+	'NAME': 'tka_2018',
+	'USER': 'tka',
+	'PASSWORD': 'WENBbjvjWwEM',
 	'HOST': 'mysql.cc.puv.fi',
 	'PORT': '3306', 
 	}
