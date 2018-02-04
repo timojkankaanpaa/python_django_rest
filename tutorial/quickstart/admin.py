@@ -6,3 +6,6 @@ from django.contrib import admin
 from django.contrib.auth.models import Company
 
 admin.site.register(Company)
+admin.site.register(Country)
+admin.site.register(City)
+admin.site.register(Customer)

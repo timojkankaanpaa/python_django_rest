@@ -1,7 +1,7 @@
 from django.contrib.auth.models import User, Group
-from models import Company
+from models import Company, Country, City, Customer
 from rest_framework import viewsets
-from tutorial.quickstart.serializers import UserSerializer, GroupSerializer, CompanySerializer
+from tutorial.quickstart.serializers import UserSerializer, GroupSerializer, CompanySerializer, CountrySerializer, CitySerializer, CustomerSerializer
 
 class UserViewSet(viewsets.ModelViewSet):
     """ 
@@ -23,3 +23,25 @@ class CompanyViewSet(viewsets.ModelViewSet):
     """
     queryset = Company.objects.all()
     serializer_class = CompanySerializer
+
+class CountryViewSet(viewsets.ModelViewSet):
+    """
+    API endpoint that allows companies to be viewed or edited.
+    """
+    queryset = Country.objects.all()
+    serializer_class = CountrySerializer	
+	
+class CityViewSet(viewsets.ModelViewSet):
+    """
+    API endpoint that allows companies to be viewed or edited.
+    """
+    queryset = City.objects.all()
+    serializer_class = CitySerializer		
+	
+class CustomerViewSet(viewsets.ModelViewSet):
+    """
+    API endpoint that allows companies to be viewed or edited.
+    """
+    queryset = Customer.objects.all()
+    serializer_class = CustomerSerializer		
+	
